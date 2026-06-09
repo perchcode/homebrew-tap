@@ -1,8 +1,10 @@
 cask "perchcode" do
   version "0.1.2"
-  sha256 "41bb19e0429bbebd9d2f533bcd72d89223de90be25faeabd4c15e0ec32d9adce"
+  sha256 "679f4b97ee2d2da790c7426fc0a3bcbb5f6223347e3d1e92a6f0ad4d2e31402a"
 
-  url "https://files.perchcode.dev/desktop/Perch-universal.dmg"
+  # Versioned URL (unique per release) so the Cloudflare CDN never serves a stale
+  # cached build the way a stable alias would.
+  url "https://files.perchcode.dev/desktop/Perch_#{version}_universal.dmg"
   name "Perch"
   desc "Mobile and native client for Claude Code and Codex"
   homepage "https://perchcode.dev/"
