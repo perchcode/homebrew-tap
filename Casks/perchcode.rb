@@ -1,6 +1,6 @@
 cask "perchcode" do
-  version "0.1.2"
-  sha256 "679f4b97ee2d2da790c7426fc0a3bcbb5f6223347e3d1e92a6f0ad4d2e31402a"
+  version "0.1.3"
+  sha256 "1fc1e6ccd4ea79f41bd156a181be9f144efc1e4ad3533db44879b25624131576"
 
   # Versioned URL (unique per release) so the Cloudflare CDN never serves a stale
   # cached build the way a stable alias would.
