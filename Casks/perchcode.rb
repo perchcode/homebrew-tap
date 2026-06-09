@@ -1,5 +1,5 @@
 cask "perchcode" do
-  version "0.1.1"
+  version "0.1.2"
   sha256 "41bb19e0429bbebd9d2f533bcd72d89223de90be25faeabd4c15e0ec32d9adce"
 
   url "https://files.perchcode.dev/desktop/Perch-universal.dmg"
